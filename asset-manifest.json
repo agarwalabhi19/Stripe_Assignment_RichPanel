@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Stripe_Assignment_RichPanel/static/css/main.00f3d7b2.css",
-    "main.js": "/Stripe_Assignment_RichPanel/static/js/main.421a0778.js",
+    "main.js": "/Stripe_Assignment_RichPanel/static/js/main.da608021.js",
     "static/js/787.28cb0dcd.chunk.js": "/Stripe_Assignment_RichPanel/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Stripe_Assignment_RichPanel/index.html",
     "main.00f3d7b2.css.map": "/Stripe_Assignment_RichPanel/static/css/main.00f3d7b2.css.map",
-    "main.421a0778.js.map": "/Stripe_Assignment_RichPanel/static/js/main.421a0778.js.map",
+    "main.da608021.js.map": "/Stripe_Assignment_RichPanel/static/js/main.da608021.js.map",
     "787.28cb0dcd.chunk.js.map": "/Stripe_Assignment_RichPanel/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00f3d7b2.css",
-    "static/js/main.421a0778.js"
+    "static/js/main.da608021.js"
   ]
 }
