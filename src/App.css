@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e4c90;
 }
 
 .App-logo {
@@ -12,7 +17,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.add-margin {
+  margin: 13px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +35,23 @@
   color: #61dafb;
 }
 
+.arrow-box-active {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background-color: #1e4c90;
+  rotate: 45deg;
+  top: 200px;
+}
+
+.arrow-box-inactive {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background-color: #90a1ba;
+  rotate: 45deg;
+  top: 200px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +59,291 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pheading {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  font-family: sans-serif;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.blocks-t1 {
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blocks-t2 {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inner-box {
+  background-color: #1e4c90;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  vertical-align: middle;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.innerbox-active {
+  background-color: #1e4c90;
+}
+
+.innerbox-inactive {
+  background-color: #90a1ba;
+}
+.toggle {
+  width: 180px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #1e4c90;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.option {
+  padding-top: 10px;
+  border-radius: 30px;
+  background-color: #282c34;
+  text-align: center;
+  width: 70px;
+  height: 40px;
+}
+.active {
+  background-color: white;
+  color: #1e4c90;
+}
+.inactive {
+  background-color: #1e4c90;
+  color: white;
+}
+
+.blocks-t3 {
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-bottom: solid 2px;
+}
+.blocks-t4 {
+  text-align: center;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 2px;
+}
+
+.blocks-t5 {
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.blocks-t6 {
+  background-color: white;
+  width: 150px;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.innertext-box {
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn {
+  width: 30%;
+  height: 40px;
+  font-size: large;
+  padding-top: 10px;
+  background-color: #1e4c90;
+  text-align: center;
+  color: white;
+}
+
+.innertext-active {
+  color: #1e4c90;
+}
+.innertext-inactive {
+  color: rgb(148, 145, 145);
+}
+
+.payment-container {
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+}
+
+.left-pane {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+.right-pane {
+  width: 40%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: rgb(237, 237, 237);
+}
+
+.heading {
+  width: 90%;
+  height: 80px;
+  margin: auto 0px;
+  background-color: rgb(237, 237, 237);
+  margin-top: 20px;
+  padding-left: 20px;
+  vertical-align: baseline;
+  font-size: 25px;
+}
+
+.text-box {
+  width: 90%;
+  height: 60px;
+  margin: auto 10px;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid rgb(69, 68, 68) 2px;
+}
+
+.text-val {
+  width: 40%;
+  height: 90%;
+  margin-left: 10px;
+  padding-top: 5px;
+  background-color: rgb(237, 237, 237);
+}
+
+.left-heading {
+  margin: 20px;
+  width: 90%;
+  height: 60px;
+  font-size: 30px;
+}
+
+.left-subheading {
+  margin-left: 20px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+}
+.cardinput {
+  font-size: 22px;
+  margin: auto 5px;
+}
+
+.submit-btn {
+  background-color: #1e4c90;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  text-align: center;
+}
+
+.summary-container {
+  width: 500px;
+  height: 320px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.summary-heading {
+  display: flex;
+  justify-content: flex-start;
+}
+.summary-main {
+  width: 200px;
+  background-color: white;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.summary-secondary {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(169, 169, 212);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+.summary-btn {
+  margin-top: 15px;
+  margin-right: 5px;
+  text-align: center;
+  font-weight: 600;
+  color: #1e4c90;
+  width: 80px;
+  height: 40px;
+  margin-left: 120px;
+  background-color: white;
+}
+
+.plan-details {
+  width: 150px;
+  height: 50px;
+  margin-left: 20px;
+}
+.price-details {
+  width: 200px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.plan-btn {
+  border-color: #1e4c90;
+  border-width: 4px;
+  border-style: solid;
+  color: #1e4c90;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.bottom-text {
+  background-color: whitesmoke;
+  color: black;
+  width: 90%;
+  height: 50px;
+  font-size: medium;
+  margin-left: 20px;
 }

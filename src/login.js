@@ -11,7 +11,12 @@ import {
 } from "@material-ui/core";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
+
 const Login = ({ handleChange }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    window.location.href = "/pricing";
+  };
   const paperStyle = {
     padding: 20,
     paddingTop: 50,
@@ -45,6 +50,7 @@ const Login = ({ handleChange }) => {
           label="Remember me"
         />
         <Button
+          onClick={handleSubmit}
           type="submit"
           color="primary"
           variant="contained"
